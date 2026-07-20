@@ -12,7 +12,7 @@ import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 export default function HomePage() {
   return (
     <>
-      <div id="hero" data-section="hero">
+      <div id="hero" data-section="hero" data-webild-component="HeroBillboard" data-webild-component-path="@/components/sections/hero/HeroBillboard">
         <SectionErrorBoundary name="hero">
           <HeroBillboard
             tag="Political Messaging Experts"
@@ -25,7 +25,7 @@ export default function HomePage() {
           />
         </SectionErrorBoundary>
       </div>
-      <div id="expertise" data-section="expertise">
+      <div id="expertise" data-section="expertise" data-webild-component="AboutFeaturesSplit" data-webild-component-path="@/components/sections/about/AboutFeaturesSplit">
         <SectionErrorBoundary name="expertise">
           <AboutFeaturesSplit
             tag="Our Expertise"
@@ -41,7 +41,7 @@ export default function HomePage() {
           />
         </SectionErrorBoundary>
       </div>
-      <div id="approach" data-section="approach">
+      <div id="approach" data-section="approach" data-webild-component="FeaturesBento" data-webild-component-path="@/components/sections/features/FeaturesBento">
         <SectionErrorBoundary name="approach">
           <FeaturesBento
             tag="Our Methodology"
@@ -56,7 +56,7 @@ export default function HomePage() {
           />
         </SectionErrorBoundary>
       </div>
-      <div id="results" data-section="results">
+      <div id="results" data-section="results" data-webild-component="MetricsMediaCards" data-webild-component-path="@/components/sections/metrics/MetricsMediaCards">
         <SectionErrorBoundary name="results">
           <MetricsMediaCards
             tag="Proven Results"
@@ -71,7 +71,7 @@ export default function HomePage() {
           />
         </SectionErrorBoundary>
       </div>
-      <div id="social" data-section="social">
+      <div id="social" data-section="social" data-webild-component="SocialProofMarquee" data-webild-component-path="@/components/sections/social-proof/SocialProofMarquee">
         <SectionErrorBoundary name="social">
           <SocialProofMarquee
             tag="Trusted By"
@@ -82,7 +82,7 @@ export default function HomePage() {
           />
         </SectionErrorBoundary>
       </div>
-      <div id="testimonials" data-section="testimonials">
+      <div id="testimonials" data-section="testimonials" data-webild-component="TestimonialTrustCard" data-webild-component-path="@/components/sections/testimonial/TestimonialTrustCard">
         <SectionErrorBoundary name="testimonials">
           <TestimonialTrustCard
             quote="Liberty West Prospects completely redefined our narrative. Their data-driven approach allowed us to pivot when needed and win where we were behind."
@@ -99,7 +99,7 @@ export default function HomePage() {
           />
         </SectionErrorBoundary>
       </div>
-      <div id="faq" data-section="faq">
+      <div id="faq" data-section="faq" data-webild-component="FaqTwoColumn" data-webild-component-path="@/components/sections/faq/FaqTwoColumn">
         <SectionErrorBoundary name="faq">
           <FaqTwoColumn
             tag="Questions"
@@ -115,7 +115,7 @@ export default function HomePage() {
           />
         </SectionErrorBoundary>
       </div>
-      <div id="contact" data-section="contact">
+      <div id="contact" data-section="contact" data-webild-component="ContactCta" data-webild-component-path="@/components/sections/contact/ContactCta">
         <SectionErrorBoundary name="contact">
           <ContactCta
             tag="Get in Touch"
