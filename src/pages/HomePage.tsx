@@ -6,7 +6,7 @@ import HeroBillboard from '@/components/sections/hero/HeroBillboard';
 import MetricsMediaCards from '@/components/sections/metrics/MetricsMediaCards';
 import SocialProofMarquee from '@/components/sections/social-proof/SocialProofMarquee';
 import TestimonialTrustCard from '@/components/sections/testimonial/TestimonialTrustCard';
-import { Brain, CheckCircle, Smartphone, Star, Target, Zap } from "lucide-react";
+import { Brain, CheckCircle, Zap } from "lucide-react";
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
 export default function HomePage() {
@@ -48,7 +48,7 @@ export default function HomePage() {
             title="Data-Driven Strategy"
             description="Our approach leverages psychological targeting and rapid feedback loops to refine messaging in real-time."
             features={[
-              { title: "Psychographic Alignment", description: "Aligning your candidate's voice with the specific values and pain points of your target voter segments.", bentoComponent: "info-card-marquee", infoCards: [{ icon: "Brain", label: "Retention", value: "98%" }, { icon: "Zap", label: "Growth", value: "120%" }, { icon: "CheckCircle", label: "Accuracy", value: "99%" }] },
+              { title: "Psychographic Alignment", description: "Aligning your candidate's voice with the specific values and pain points of your target voter segments.", bentoComponent: "info-card-marquee", infoCards: [{ icon: Brain, label: "Retention", value: "98%" }, { icon: Zap, label: "Growth", value: "120%" }, { icon: CheckCircle, label: "Accuracy", value: "99%" }] },
               { title: "Campaign Lifecycle", description: "Managing the full campaign narrative through phases.", bentoComponent: "checklist-timeline", heading: "Execution Phases", subheading: "Proven results", checklistItems: [{ label: "Phase 1: Narrative", detail: "Core message definition" }, { label: "Phase 2: Digital", detail: "Content deployment" }, { label: "Phase 3: Feedback", detail: "Message optimization" }], completedLabel: "Campaign Won" },
               { title: "Message Resonance", description: "Visualizing how our narrative shift drives voter engagement over time.", bentoComponent: "media-stack", mediaItems: [{ imageSrc: "http://img.b2bpic.net/free-photo/tired-police-officer-analyzing-victim-report-arhive-room_482257-74446.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/marketing-computer-sign-symbol-concept_53876-123885.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/drawings-about-legal-profession_23-2151190624.jpg" }] }
             ]}
