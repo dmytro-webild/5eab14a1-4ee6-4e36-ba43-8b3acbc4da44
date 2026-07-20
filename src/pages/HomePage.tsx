@@ -36,7 +36,7 @@ export default function HomePage() {
               { icon: "Smartphone", title: "Shortform Content Strategy", description: "Producing high-impact vertical content optimized for engagement on platforms where voters spend their time." },
               { icon: "Target", title: "Integrated Messaging", description: "Coordinating digital, earned media, and grassroots strategy for maximum mobilization and electoral success." }
             ]}
-            imageSrc="http://img.b2bpic.net/free-photo/tired-police-officer-analyzing-victim-report-arhive-room_482257-74446.jpg"
+            imageSrc="http://img.b2bpic.net/free-photo/tired-police-officer-analyzing-victim-report-arhive-room_482257-74446.jpg?_wi=1"
             textAnimation="fade-blur"
           />
         </SectionErrorBoundary>
@@ -50,7 +50,7 @@ export default function HomePage() {
             features={[
               { title: "Psychographic Alignment", description: "Aligning your candidate's voice with the specific values and pain points of your target voter segments.", bentoComponent: "info-card-marquee", infoCards: [{ icon: Brain, label: "Retention", value: "98%" }, { icon: Zap, label: "Growth", value: "120%" }, { icon: CheckCircle, label: "Accuracy", value: "99%" }] },
               { title: "Campaign Lifecycle", description: "Managing the full campaign narrative through phases.", bentoComponent: "checklist-timeline", heading: "Execution Phases", subheading: "Proven results", checklistItems: [{ label: "Phase 1: Narrative", detail: "Core message definition" }, { label: "Phase 2: Digital", detail: "Content deployment" }, { label: "Phase 3: Feedback", detail: "Message optimization" }], completedLabel: "Campaign Won" },
-              { title: "Message Resonance", description: "Visualizing how our narrative shift drives voter engagement over time.", bentoComponent: "media-stack", mediaItems: [{ imageSrc: "http://img.b2bpic.net/free-photo/tired-police-officer-analyzing-victim-report-arhive-room_482257-74446.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/marketing-computer-sign-symbol-concept_53876-123885.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/drawings-about-legal-profession_23-2151190624.jpg" }] }
+              { title: "Message Resonance", description: "Visualizing how our narrative shift drives voter engagement over time.", bentoComponent: "media-stack", mediaItems: [{ imageSrc: "http://img.b2bpic.net/free-photo/tired-police-officer-analyzing-victim-report-arhive-room_482257-74446.jpg?_wi=2" }, { imageSrc: "http://img.b2bpic.net/free-photo/marketing-computer-sign-symbol-concept_53876-123885.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/drawings-about-legal-profession_23-2151190624.jpg" }] }
             ]}
             textAnimation="slide-up"
           />
