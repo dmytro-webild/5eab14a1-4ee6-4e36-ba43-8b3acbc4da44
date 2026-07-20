@@ -26,7 +26,7 @@ export default function HomePage() {
         text: "View Case Studies",
         href: "#results",
       }}
-      imageSrc="http://img.b2bpic.net/free-photo/advisory-board-members-meeting-boardroom-establish-future-development-plan_482257-113859.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/advisory-board-members-meeting-boardroom-establish-future-development-plan_482257-113859.jpg?_wi=1"
       textAnimation="slide-up"
     />
     </SectionErrorBoundary>
@@ -55,7 +55,7 @@ export default function HomePage() {
           description: "Coordinating digital, earned media, and grassroots strategy for maximum mobilization and electoral success.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/tired-police-officer-analyzing-victim-report-arhive-room_482257-74446.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/tired-police-officer-analyzing-victim-report-arhive-room_482257-74446.jpg?_wi=1"
       textAnimation="fade-blur"
     />
     </SectionErrorBoundary>
@@ -113,7 +113,7 @@ export default function HomePage() {
             },
           ],
           completedLabel: "Campaign Won",
-          imageSrc: "http://img.b2bpic.net/free-photo/advisory-board-members-meeting-boardroom-establish-future-development-plan_482257-113859.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/advisory-board-members-meeting-boardroom-establish-future-development-plan_482257-113859.jpg?_wi=2",
           imageAlt: "social media growth analytics",
         },
         {
@@ -122,7 +122,7 @@ export default function HomePage() {
           bentoComponent: "media-stack",
           mediaItems: [
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/tired-police-officer-analyzing-victim-report-arhive-room_482257-74446.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/tired-police-officer-analyzing-victim-report-arhive-room_482257-74446.jpg?_wi=2",
             },
             {
               imageSrc: "http://img.b2bpic.net/free-photo/marketing-computer-sign-symbol-concept_53876-123885.jpg",
@@ -131,7 +131,7 @@ export default function HomePage() {
               imageSrc: "http://img.b2bpic.net/free-photo/drawings-about-legal-profession_23-2151190624.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/dynamic-data-visualization-3d_23-2151904321.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/dynamic-data-visualization-3d_23-2151904321.jpg?_wi=1",
           imageAlt: "social media growth analytics",
         },
       ]}
@@ -151,7 +151,7 @@ export default function HomePage() {
           value: "34%",
           title: "Engagement Increase",
           description: "Average increase in audience retention for our shortform content deployments.",
-          imageSrc: "http://img.b2bpic.net/free-photo/dynamic-data-visualization-3d_23-2151904321.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/dynamic-data-visualization-3d_23-2151904321.jpg?_wi=2",
         },
         {
           value: "500k+",
